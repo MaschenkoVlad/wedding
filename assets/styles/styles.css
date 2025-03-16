@@ -1,0 +1,458 @@
+.hero {
+    background-image: url(../images/IMG_2328.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-headline {
+    font-size: 80px;
+    line-height: 1.2;
+    color: #e1e1e1;
+    font-style: italic;
+    padding: 80px 15px 0;
+    text-align: center;
+    font-family: GreatVibes;
+}
+
+.wedding-date {
+    font-size: 46px;
+    color: #e1e1e1;lic;
+    font-family: TenorSans, sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 48px;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.guests {
+    padding: 80px 0 160px;
+    position: relative;
+}
+
+.guests-headline {
+    font-size: 80px;
+    line-height: 1.2;
+    text-align: center;
+    font-style: italic;
+    font-family: GreatVibes;
+}
+
+.guests-invite-text {
+    max-width: 440px;
+    margin: 36px auto 0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.image-couples {
+    max-width: 300px;
+}
+
+.wedding-date-next {
+    font-size: 80px;
+    line-height: 1.2;
+    color: #ccc;
+    font-style: italic;
+    font-family: GreatVibes;
+}
+
+.images-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-couples-wrapper {
+    position: relative;
+    left: 150px;
+}
+
+.image-couples-wrapper-2 {
+    position: relative;
+    z-index: -1;
+    top: 100px;
+    left: 55px;
+}
+
+/* Dress code */
+
+.dress-code {
+    padding: 80px 0;
+}
+
+.dress-code-headline {
+    font-size: 80px;
+    text-align: center;
+    font-style: italic;
+    font-family: GreatVibes;
+}
+
+.dress-code-options {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 36px auto 0;
+    padding: 0 24px;
+}
+
+.dress-code-option {
+    width: 180px;
+    height: 180px;
+}
+
+.plant {
+    background-color: #637755;
+}
+
+.coffee{
+    background-color: #C1A68D;
+}
+
+.cookie {
+    background-color: #F3E0D8;
+}
+
+.milk {
+    background-color: #F7F1E4;
+}
+
+.dress-code-examples {
+    max-width: 960px;
+    margin: 36px auto 0;
+    display: flex;
+    gap: 20px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dress-code-example {
+    flex-basis: 250px;
+}
+
+.dress-code-example > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.dress-code-description {
+    max-width: 600px;
+    margin: 28px auto 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: TenorSans, sans-serif;
+}
+
+/* Location */
+
+.location {
+    padding: 80px 0;
+}
+
+.location-headline {
+    font-size: 80px;
+    text-align: center;
+    font-style: italic;
+    font-family: GreatVibes;
+}
+
+.location-description {
+    max-width: 400px;
+    margin: 36px auto 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: TenorSans, sans-serif;
+    font-weight: 600;
+}
+
+.location-btn-wrapper {
+    margin: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.location-link-btn {
+    text-align: center;
+    font-size: 18px;
+    font-family: TenorSans, sans-serif;
+    padding: 17px 24px;
+    color: #e1e1e1;
+    background-color: #3c3c3c;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.location-timetable-container {
+    display: flex;
+    margin-top: 56px
+}
+
+.location-image-container {
+    flex: 1;
+}
+
+.location-timetable {
+    flex: 1;
+    background-color: #3c3c3c;
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.location-timetable li {
+    margin-top: 36px;
+}
+
+.location-timetable-headline {
+    font-size: 55px;
+    text-align: center;
+    color: #e1e1e1;
+    font-style: italic;
+    font-family: GreatVibes;
+}
+
+.timetable {
+    font-size: 34px;
+    color: #e1e1e1;
+    font-family: TenorSans, sans-serif;
+    margin-bottom: 5px;
+}
+
+.timetable-description {
+    font-size: 20px;
+    color: #e1e1e1;
+    font-family: TenorSans, sans-serif;
+}
+
+.location-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* Questionnaire */
+
+.questionnaire {
+    display: flex;
+}
+
+.questionnaire-leftside {
+    flex: 1;
+    padding-top: 80px;
+}
+
+.questionnaire-rightside {
+    margin-left: auto;
+}
+
+.questionnaire-content-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.questionnaire-headline {
+    font-size: 100px;
+    text-align: center;
+    font-style: italic;
+    font-family: GreatVibes;
+}
+
+.questionnaire-description {
+    text-align: center;
+    font-size: 24px;
+    font-family: TenorSans, sans-serif;
+    margin: 18px auto;
+    max-width: 440px;
+    line-height: 1.5;
+}
+
+.form {
+    margin-top: 60px;
+}
+
+.text-label {
+    font-size: 25px;
+    font-family: TenorSans, sans-serif;
+    font-weight: 600;
+}
+
+.text-input {
+    border: 1px solid #c3c3c3;
+    border-radius: 50px;
+    padding: 12px 20px;
+    margin-top: 30px;
+    width: 340px;
+    font-size: 24px;
+}
+
+.text-field-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-text {
+    font-size: 100px;
+    text-align: center;
+    font-style: italic;
+    font-family: GreatVibes;
+    color:darkgray;
+    margin-top: 50px;
+}
+
+.text-additional-label {
+    font-size: 20px;
+    font-family: TenorSans, sans-serif;
+    margin: 12px 0;
+    font-weight: 600;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.radio-btn-section {
+    margin: 45px 0 60px;
+}
+
+.radio-btn-headline {
+    font-size: 26px;
+    font-family: TenorSans, sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.radio-btn-container {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.radio-label {
+    font-size: 22px;
+    font-family: TenorSans, sans-serif;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.radio-btn-wrapper {
+    margin-top: 5px;
+}
+
+.questionnaire-image {
+    height: 280px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 50px;
+    background-color: #ccc;
+    border-radius: 50px;
+    font-size: 22px;
+    font-family: TenorSans, sans-serif;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 860px) {
+    .dress-code-option {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .bottom-text {
+        margin-top: 40px;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .hero-headline {
+        font-size: 54px;
+    }
+
+    .wedding-date {
+        font-size: 24px;
+    }
+
+    .dress-code-option { 
+        width: 120px;
+        height: 120px;
+    }
+
+    .questionnaire-headline {
+        font-size: 60px;
+    }
+
+    .questionnaire-description {
+        font-size: 20px;
+    }
+
+    .radio-btn-headline {
+        font-size: 22px;
+    }
+
+    .text-label {
+        font-size: 22px;
+    }
+
+    .radio-label {
+        font-size: 18px;
+    }
+
+    .questionnaire-image {
+        height: 220px;
+    }
+
+    .questionnaire-leftside {
+        padding-top: 40px;
+    }
+
+    .location-timetable-headline {
+        font-size: 35px;
+    }
+
+    .timetable {
+        font-size: 24px;
+    }
+
+    .timetable-description {
+        font-size: 16px;
+    }
+
+    .location-timetable-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .dress-code-option {
+        width: 60px;
+        height: 60px;
+    }
+
+    .questionnaire-leftside {
+        padding: 20px 14px 0;
+    }
+
+    .bottom-text {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+}
