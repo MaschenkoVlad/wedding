@@ -1,0 +1,15 @@
+/* fonts */
+
+@font-face {
+    font-family: 'GreatVibes';
+    src: url('../fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
+/* fonts */
+
+@font-face {
+    font-family: 'TenorSans';
+    src: url('../fonts/TenorSans-Regular.ttf') format('truetype');
+}
+
+
