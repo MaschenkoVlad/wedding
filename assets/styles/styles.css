@@ -10,7 +10,8 @@
 .hero-headline {
     font-size: 80px;
     line-height: 1.2;
-    color: #e1e1e1;
+    /* color: #e1e1e1; */
+    color: #fff;
     font-style: italic;
     padding: 80px 15px 0;
     text-align: center;
@@ -489,6 +490,10 @@
 }
 
 @media screen and (max-width: 560px) {
+    .location {
+        padding-top: 0;
+    }
+
     .hero {
         background-position: top;
         /* background-size: contain; */
@@ -501,7 +506,8 @@
     }
 
     .hero-headline {
-        padding: 20px 10px 0;
+        padding: 45px 10px 0;
+        font-size: 40px;
     }
 
     .dress-code-option {
