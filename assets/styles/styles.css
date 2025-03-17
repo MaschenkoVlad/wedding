@@ -180,7 +180,7 @@
 }
 
 .location-description {
-    max-width: 400px;
+    width: 400px;
     margin: 36px auto 0;
     text-align: center;
     font-size: 24px;
@@ -212,6 +212,10 @@
 
 .location-image-container {
     flex: 1;
+    background-image: url(../images/IMG_2333.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 
 .location-timetable {
@@ -477,17 +481,23 @@
     .location-timetable-container {
         flex-direction: column;
     }
+
+    .location-image-container {
+        flex: none;
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 560px) {
     .hero {
         background-position: top;
-        background-size: contain;
+        /* background-size: contain; */
         height: 75vh;
     }
 
     .wedding-date {
-        bottom: 10px;
+        /* bottom: 10px; */
+        padding-bottom: 24px;
     }
 
     .hero-headline {
@@ -495,8 +505,8 @@
     }
 
     .dress-code-option {
-        width: 60px;
-        height: 60px;
+        width: 100px;
+        height: 100px;
     }
 
     .questionnaire-leftside {
@@ -560,5 +570,21 @@
 
     .questionnaire-description {
         font-size: 18px;
+    }
+
+    .location-description {
+        width: 300px;
+        font-size: 18px;
+    }
+
+    .guests-headline {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .dress-code-option {
+        width: 70px;
+        height: 70px;
     }
 }
