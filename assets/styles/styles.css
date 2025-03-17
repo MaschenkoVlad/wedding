@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    position: relative;
 }
 
 .hero-headline {
@@ -31,7 +32,6 @@
 
 .guests {
     padding: 80px 0 160px;
-    position: relative;
 }
 
 .guests-headline {
@@ -55,17 +55,30 @@
 }
 
 .wedding-date-next {
-    font-size: 80px;
+    font-size: 100px;
     line-height: 1.2;
     color: #ccc;
     font-style: italic;
     font-family: GreatVibes;
 }
 
+.wedding-date-wrapper {
+    position: absolute;
+    top: 90%;
+    left: 35px;
+    z-index: 10;
+}
+
 .images-wrapper {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+.wrapper-helper {
+    width: 600px;
+    display: flex;
+    position: relative;
 }
 
 .image-couples-wrapper {
@@ -367,6 +380,30 @@
     font-weight: 600;
 }
 
+@media screen and (max-width: 760px) {
+    .wrapper-helper {
+        width: auto;
+    }
+
+    .wedding-date-wrapper {
+        text-align: center;
+        top: 85%;
+        width: 100%;
+        left: 0;
+    }
+ 
+    .image-couples-wrapper {
+        position: static;
+    }
+    .image-couples-wrapper-2 {
+        position: static;
+    }
+
+    .image-couples {
+        height: 400px;
+    }
+}
+
 
 @media screen and (max-width: 860px) {
     .dress-code-option {
@@ -442,6 +479,20 @@
 }
 
 @media screen and (max-width: 560px) {
+    .hero {
+        background-position: top;
+        background-size: contain;
+        height: 75vh;
+    }
+
+    .wedding-date {
+        bottom: 10px;
+    }
+
+    .hero-headline {
+        padding: 20px 10px 0;
+    }
+
     .dress-code-option {
         width: 60px;
         height: 60px;
@@ -454,5 +505,59 @@
     .bottom-text {
         margin-top: 20px;
         font-size: 40px;
+    }
+
+    .dress-code {
+        padding-top: 0;
+    }
+
+    .text-input {
+        width: 100%;
+    }
+
+    .questionnaire-content-container {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .radio-btn-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .image-couples {
+        height: 240px;
+    }
+
+    .wedding-date-next {
+        font-size: 60px;
+    }
+
+    .wedding-date-wrapper {
+        top: 90%;
+    }
+
+    .guests-invite-text {
+        padding: 0 12px;
+    }
+
+    .text-label {
+        font-size: 18px;
+    }
+
+    .radio-btn-headline {
+        font-size: 18px;
+    }
+
+    .form {
+        margin-top: 20px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    .questionnaire-description {
+        font-size: 18px;
     }
 }
