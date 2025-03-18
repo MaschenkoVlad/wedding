@@ -312,6 +312,7 @@
     margin-top: 30px;
     width: 340px;
     font-size: 24px;
+    font-family: TenorSans, sans-serif;
 }
 
 .text-field-wrapper {
@@ -530,6 +531,7 @@
 
     .text-input {
         width: 100%;
+        font-size: 16px;
     }
 
     .questionnaire-content-container {
